@@ -1,8 +1,7 @@
 package org.skypro.skyshop.product;
 
 public abstract class Product {
-
-    private String name; // Название продукта
+    private String name;
 
     public Product(String name) {
         this.name = name;
@@ -13,6 +12,5 @@ public abstract class Product {
     }
 
     public abstract int getPrice();
-
     public abstract boolean isSpecial();
 }
